@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace Test2_TrinhDinhHung
+{
+    public partial class MyUser : System.Web.UI.MasterPage
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            lbMN.Text = ("<b>$ " + Session["Money"].ToString() + " USDT</b>");
+            lbNameUser.Text = Session["UserName"].ToString();
+        }
+    }
+}

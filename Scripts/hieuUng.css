@@ -1,0 +1,14 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+embed {
+    display: none;
+}
+
+canvas {
+    background: url("../images/banner_DW.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
